@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #e0e3e2;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 20px;
+    font-family: "Baloo Bhai 2";
+    font-weight: 500;
+}
+
+
+.navbar .icons {
+    display: flex;
+    gap: 25px;
+    margin-left: 370px;
+    cursor: pointer;
+
+}
+
+.navbar .icons img {
+    height: 25px;
+}
+
+.navbar .Logo {
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 22px;
+}
+
+.midsec {
+    display: flex;
+    gap: 60px;
+    margin-left: 370px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.midsec>* {
+    transition: transform 0.2s ease-in-out;
+}
+
+.midsec>*:hover {
+    transform: scale(1.2);
+
+}
+
+.icons>* {
+    transition: transform 0.2s ease-in-out;
+}
+
+.icons>*:hover {
+    transform: scale(1.2);
+}
+
+.card {
+    display: flex;
+    justify-content: right;
+    padding-right: 70px;
+}
+
+.card img {
+    border-radius: 39px;
+    margin-top: 25px;
+    max-width: auto;
+    height: 677px;
+
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards img {
+    height: 450px;
+    cursor: pointer;
+
+}
+
+.card1 img {
+    margin-top: 180px;
+    margin-left: 30px;
+}
+
+.card3 img {
+    margin-top: 240px;
+    margin-left: -10px;
+}
+
+.card4 img {
+    margin-left: 40px;
+    margin-top: -25px;
+}
+
+.card5 img {
+    margin-top: 171px;
+    margin-left: 53px;
+}
+
+.catcards {
+    display: flex;
+    cursor: pointer;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Baloo Bhai 2";
+    font-size: 65px;
+    margin-top: 100px;
+    margin-bottom: -60px;
+}
+
+.male {
+    height: 33vh;
+    width: 34vw;
+    border: 2px transparent;
+    margin: 120px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-image: url(ASSETS/BG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.male h2 {
+    padding: 15px;
+    padding-left: 50px;
+    font-size: 35px;
+    font-family: "Baloo Bhai 2";
+}
+
+.male img {
+    height: 500px;
+    margin-top: -300px;
+    padding-left: 260px;
+    object-fit: cover;
+
+}
+
+.female {
+    height: 33vh;
+    width: 34vw;
+    border: 2px transparent;
+    margin: 120px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-image: url(ASSETS/BG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.female h2 {
+    padding: 15px;
+    padding-left: 50px;
+    font-size: 35px;
+    font-family: "Baloo Bhai 2";
+}
+
+.female img {
+    height: 500px;
+    margin-top: -180px;
+    object-fit: cover;
+
+}
+
+.catcards>* {
+    transition: transform 0.2s ease-in-out;
+}
+
+.catcards>*:hover {
+    transform: scale(1.2);
+}
+
+.latest {
+    margin-top: -45px;
+    margin-bottom: 10px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.jacket,
+.bag,
+.shoes,
+.scarf,
+.tshirt,
+.wallet,
+.blazer,
+.hoodie {
+    height: 384px;
+    width: 283px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    margin: 0; /* remove big margin */
+}
+
+.jacket img {
+    height: 229px;
+    margin-left: -28px;
+    padding-top: 26px;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardtittle {
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.price {
+    padding-left: 25px;
+    font-weight: 800;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.sizes {
+    padding-left: 25px;
+    word-spacing: 10px;
+    padding-top: 5px;
+}
+
+.atc img{
+    height: 35px;
+}
+.atc{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.atc>* {
+    transition: transform 0.2s ease-in-out;
+}
+
+.atc>*:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+.bag img {
+    height: 229px;
+    margin-left: -28px;
+    padding-top: 26px;
+}
+
+.atc img{
+    height: 35px;
+}
+.atc{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+.shoes img {
+    height: 229px;
+    margin-left: -28px;
+    padding-top: 26px;
+}
+
+.atc img{
+    height: 35px;
+}
+.atc{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+.scarf img {
+    height: 229px;
+    margin-left: -28px;
+    padding-top: 26px;
+}
+
+.atc img{
+    height: 35px;
+}
+.atc{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.tshirt img {
+    height: 229px;
+    margin-left: -28px;
+    padding-top: 26px;
+}
+
+.atc img{
+    height: 35px;
+}
+.atc{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+.wallet img {
+    height: 229px;
+    margin-left: -28px;
+    padding-top: 26px;
+}
+
+.atc img{
+    height: 35px;
+}
+.atc{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.sizesw{
+  padding-left: 25px;
+    padding-top: 5px;  
+}
+
+.blazer img {
+    height: 229px;
+    margin-left: -28px;
+    padding-top: 26px;
+}
+
+.atc img{
+    height: 35px;
+}
+.atc{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+.hoodie img {
+    height: 229px;
+    margin-left: -28px;
+    padding-top: 26px;
+}
+
+.atc img{
+    height: 35px;
+}
+.atc{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+.footer {
+  background-color: #e0e3e2;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+  gap: 300px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #9aa18d;
+  border-radius: 50%;
+  padding: 5px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.footer-columns {
+  display: flex;
+  gap: 480px;
+}
+
+.footer-section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #222;
+  cursor: pointer;
+}
+
+.footer-section .copyright {
+  color: gray;
+  margin-top: 10px;
+  cursor: default;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .navbar ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .midsec {
+      margin-left: 0;
+    }
+    .navbar .icons {
+      margin-left: 0;
+    }
+    .cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .catcards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .products {
+      gap: 30px;
+      padding: 20px;
+    }
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      gap: 60px;
+      padding: 40px 20px;
+    }
+    .footer-columns {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .midsec {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .cards img {
+      height: 300px;
+    }
+    .male, .female {
+      width: 80vw;
+      height: auto;
+      margin: 40px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .male img, .female img {
+      height: auto;
+      width: 100%;
+      padding-left: 0;
+      margin-top: 0;
+    }
+    .products {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-columns {
+      gap: 30px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 40px;
+    }
+    .logo {
+      font-size: 22px;
+    }
+    .footer-section h3 {
+      font-size: 14px;
+    }
+    .footer-section li {
+      font-size: 13px;
+    }
+    .social-icons img {
+      width: 28px;
+      height: 28px;
+    }
+  }
